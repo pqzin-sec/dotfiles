@@ -13,6 +13,7 @@ brew "php"
 brew "pnpm"
 brew "python"
 brew "rust"
+brew "go"
 
 # Apps
 cask "iterm2"
