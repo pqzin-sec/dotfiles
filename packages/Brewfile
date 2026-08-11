@@ -1,0 +1,20 @@
+# CLI / Dev tools
+brew "docker"
+brew "fastfetch"
+brew "nmap"
+brew "openvpn"
+brew "tree"
+brew "wget"
+brew "pipx"
+
+# Languages / runtimes
+brew "node"
+brew "php"
+brew "pnpm"
+brew "python"
+brew "rust"
+
+# Apps
+cask "iterm2"
+cask "visual-studio-code"
+cask "burp-suite"

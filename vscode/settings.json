@@ -1,0 +1,25 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Andromeda",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "python.createEnvironment.trigger": "off",
+    "explorer.confirmDelete": false,
+    "workbench.settings.applyToAllProfiles": [
+        "python.defaultInterpreterPath"
+    ],
+    "[python]": {
+        
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultColorDecorators": "never",
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+    },
+    "python.defaultInterpreterPath": "/opt/homebrew/bin/python3",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.tabSize": 2,
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilotcli:",
+    "C_Cpp.default.compilerPath": "/usr/bin/g++"
+
+}

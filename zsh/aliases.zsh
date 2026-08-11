@@ -1,0 +1,1 @@
+alias ip='ifconfig | awk '\''/^[a-z0-9]+:/{iface=$1; sub(":","",iface)} /inet /{print iface, $2}'\'''
