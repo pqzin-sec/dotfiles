@@ -22,6 +22,19 @@ source "$ZSH/oh-my-zsh.sh"
 [[ -f "$HOME/.config/zsh/functions.zsh" ]] && source "$HOME/.config/zsh/functions.zsh"
 [[ -f "$HOME/.config/zsh/aliases.zsh" ]] && source "$HOME/.config/zsh/aliases.zsh"
 
+export YSU_IGNORED_ALIASES=(
+  cls
+  cl
+  clera
+  ckear
+  clea
+  cear
+  cea
+  ceat
+  celat
+  clear
+)
+
 ITERM2_SHELL_INTEGRATION="$HOME/.iterm2_shell_integration.zsh"
 
 if [[ -e "$ITERM2_SHELL_INTEGRATION" ]]; then

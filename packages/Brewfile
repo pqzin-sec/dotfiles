@@ -6,6 +6,9 @@ brew "openvpn"
 brew "tree"
 brew "wget"
 brew "pipx"
+brew "bat"
+brew "eza"
+brew "font-hack-nerd-font"
 
 # Languages / runtimes
 brew "node"
