@@ -12,4 +12,6 @@ find "$DOTFILES_DIR" -name "install.sh" -exec chmod +x {} \;
 "$DOTFILES_DIR/iterm2/install.sh"
 "$DOTFILES_DIR/vscode/install.sh"
 
+touch "$HOME/.hushlogin"
+
 echo "==> Dotfiles configurados"

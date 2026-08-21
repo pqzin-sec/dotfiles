@@ -4,7 +4,7 @@ ZSH_THEME="apple"
 
 zstyle ':omz:update' mode reminder
 
-HIST_STAMPS="dd/mm/yyyy"
+HIST_STAMPS="%d/%m/%Y"
 
 plugins=(
   git
@@ -40,3 +40,7 @@ ITERM2_SHELL_INTEGRATION="$HOME/.iterm2_shell_integration.zsh"
 if [[ -e "$ITERM2_SHELL_INTEGRATION" ]]; then
   source "$ITERM2_SHELL_INTEGRATION"
 fi
+
+# wellcome messages
+print -P "%F{cyan}󰍂  Last login: %F{yellow}$(date '+%a %b %d %H:%M:%S') %F{cyan}on %F{green}$(tty | xargs basename)%f"
+print -P "%F{cyan}  Welcome back to %F{green} $(hostname)%F{cyan}, %F{yellow} $(whoami)%F{cyan}! Happy hacking :)%f"
